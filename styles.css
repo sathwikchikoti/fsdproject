@@ -518,9 +518,10 @@ nav .fa{
 
 .row1{
     margin-top:5%;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:10%;
+    margin-right:10%;
     display:flex;
+    position:centered;
     justify-content:space-between;
 
 }
@@ -532,6 +533,10 @@ nav .fa{
     padding:20px 12px;
     box-sizing : border-box;
 
+}
+.ach-p{
+    
+    text-align: center;
 }
 .ach-p{
     
@@ -708,10 +713,10 @@ input[type="Submit"]:hover{
     margin: auto;
     padding:80px 0 ;
  }
- .row1{
+ .row2{
   background-color: rgb(247, 241, 234);
  }
- .row1 h2{
+ .row2 h2{
   text-align: center;
   color:#222;
   font-weight:600;
@@ -719,7 +724,7 @@ input[type="Submit"]:hover{
   padding-top: 45px;
   padding-bottom: 33px;
  }
- .row1 p{
+ .row2 p{
   text-align:left;
   text-decoration: none;
   font-size:16px;
@@ -727,7 +732,7 @@ input[type="Submit"]:hover{
   margin-left: 40px;
   opacity: 2;
  }
- .row1 img{
+ .row2 img{
   color:#999;
   padding:0;
   width:50%;
